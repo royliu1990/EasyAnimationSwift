@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95D9EF62F8734D3D56EB5F7C /* Pods_EasyAnimationSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B476B626FDAFA2DD16DF0DA0 /* Pods_EasyAnimationSwiftDemo.framework */; };
+		D476F01205EAC60D1DBE093A /* Pods_EasyAnimationSwiftDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1C3690FC7740588B8C61A5 /* Pods_EasyAnimationSwiftDemoTests.framework */; };
+		F68BB5E01E23CAD2000A4168 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68BB5DF1E23CAD2000A4168 /* AppDelegate.swift */; };
+		F68BB5E21E23CAD2000A4168 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68BB5E11E23CAD2000A4168 /* ViewController.swift */; };
+		F68BB5E51E23CAD2000A4168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68BB5E31E23CAD2000A4168 /* Main.storyboard */; };
+		F68BB5E71E23CAD2000A4168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68BB5E61E23CAD2000A4168 /* Assets.xcassets */; };
+		F68BB5EA1E23CAD2000A4168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68BB5E81E23CAD2000A4168 /* LaunchScreen.storyboard */; };
+		F68BB5F51E23CAD2000A4168 /* EasyAnimationSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68BB5F41E23CAD2000A4168 /* EasyAnimationSwiftDemoTests.swift */; };
+		F68BB6001E23CAD2000A4168 /* EasyAnimationSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68BB5FF1E23CAD2000A4168 /* EasyAnimationSwiftDemoUITests.swift */; };
+		F68BB6141E23CBE8000A4168 /* EASCKAFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68BB6101E23CBE8000A4168 /* EASCKAFactor.swift */; };
+		F68BB6151E23CBE8000A4168 /* EASCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68BB6111E23CBE8000A4168 /* EASCore.swift */; };
+		F68BB6161E23CBE8000A4168 /* EASKeyValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68BB6121E23CBE8000A4168 /* EASKeyValues.swift */; };
+		F68BB6171E23CBE8000A4168 /* EASUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68BB6131E23CBE8000A4168 /* EASUtils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F68BB5F11E23CAD2000A4168 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F68BB5D41E23CAD2000A4168 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F68BB5DB1E23CAD2000A4168;
+			remoteInfo = EasyAnimationSwiftDemo;
+		};
+		F68BB5FC1E23CAD2000A4168 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F68BB5D41E23CAD2000A4168 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F68BB5DB1E23CAD2000A4168;
+			remoteInfo = EasyAnimationSwiftDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FB44E3CE3C66AB6FD43CA9C /* Pods-EasyAnimationSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyAnimationSwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyAnimationSwiftDemo/Pods-EasyAnimationSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2C0D38E1CD733CE1A0D454B2 /* Pods-EasyAnimationSwiftDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyAnimationSwiftDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyAnimationSwiftDemoTests/Pods-EasyAnimationSwiftDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F1C3690FC7740588B8C61A5 /* Pods_EasyAnimationSwiftDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyAnimationSwiftDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6971960BC090ED7CCCE53CED /* Pods-EasyAnimationSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyAnimationSwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyAnimationSwiftDemo/Pods-EasyAnimationSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7DA22C5EE426230E01A72A40 /* Pods-EasyAnimationSwiftDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyAnimationSwiftDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyAnimationSwiftDemoTests/Pods-EasyAnimationSwiftDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		B476B626FDAFA2DD16DF0DA0 /* Pods_EasyAnimationSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyAnimationSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68BB5DC1E23CAD2000A4168 /* EasyAnimationSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyAnimationSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68BB5DF1E23CAD2000A4168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F68BB5E11E23CAD2000A4168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F68BB5E41E23CAD2000A4168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F68BB5E61E23CAD2000A4168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F68BB5E91E23CAD2000A4168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F68BB5EB1E23CAD2000A4168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F68BB5F01E23CAD2000A4168 /* EasyAnimationSwiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyAnimationSwiftDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68BB5F41E23CAD2000A4168 /* EasyAnimationSwiftDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyAnimationSwiftDemoTests.swift; sourceTree = "<group>"; };
+		F68BB5F61E23CAD2000A4168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F68BB5FB1E23CAD2000A4168 /* EasyAnimationSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyAnimationSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68BB5FF1E23CAD2000A4168 /* EasyAnimationSwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyAnimationSwiftDemoUITests.swift; sourceTree = "<group>"; };
+		F68BB6011E23CAD2000A4168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F68BB6101E23CBE8000A4168 /* EASCKAFactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EASCKAFactor.swift; path = EasyAnimationSwift/EASCKAFactor.swift; sourceTree = "<group>"; };
+		F68BB6111E23CBE8000A4168 /* EASCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EASCore.swift; path = EasyAnimationSwift/EASCore.swift; sourceTree = "<group>"; };
+		F68BB6121E23CBE8000A4168 /* EASKeyValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EASKeyValues.swift; path = EasyAnimationSwift/EASKeyValues.swift; sourceTree = "<group>"; };
+		F68BB6131E23CBE8000A4168 /* EASUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EASUtils.swift; path = EasyAnimationSwift/EASUtils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F68BB5D91E23CAD2000A4168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D9EF62F8734D3D56EB5F7C /* Pods_EasyAnimationSwiftDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68BB5ED1E23CAD2000A4168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D476F01205EAC60D1DBE093A /* Pods_EasyAnimationSwiftDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68BB5F81E23CAD2000A4168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3022F83F58163F0371526340 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B476B626FDAFA2DD16DF0DA0 /* Pods_EasyAnimationSwiftDemo.framework */,
+				4F1C3690FC7740588B8C61A5 /* Pods_EasyAnimationSwiftDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DB0A5CE95E25C59A6194CD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6971960BC090ED7CCCE53CED /* Pods-EasyAnimationSwiftDemo.debug.xcconfig */,
+				0FB44E3CE3C66AB6FD43CA9C /* Pods-EasyAnimationSwiftDemo.release.xcconfig */,
+				2C0D38E1CD733CE1A0D454B2 /* Pods-EasyAnimationSwiftDemoTests.debug.xcconfig */,
+				7DA22C5EE426230E01A72A40 /* Pods-EasyAnimationSwiftDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F68BB5D31E23CAD2000A4168 = {
+			isa = PBXGroup;
+			children = (
+				F68BB60F1E23CBDA000A4168 /* EasyAnimationSwift */,
+				F68BB5DE1E23CAD2000A4168 /* EasyAnimationSwiftDemo */,
+				F68BB5F31E23CAD2000A4168 /* EasyAnimationSwiftDemoTests */,
+				F68BB5FE1E23CAD2000A4168 /* EasyAnimationSwiftDemoUITests */,
+				F68BB5DD1E23CAD2000A4168 /* Products */,
+				5DB0A5CE95E25C59A6194CD1 /* Pods */,
+				3022F83F58163F0371526340 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F68BB5DD1E23CAD2000A4168 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F68BB5DC1E23CAD2000A4168 /* EasyAnimationSwiftDemo.app */,
+				F68BB5F01E23CAD2000A4168 /* EasyAnimationSwiftDemoTests.xctest */,
+				F68BB5FB1E23CAD2000A4168 /* EasyAnimationSwiftDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F68BB5DE1E23CAD2000A4168 /* EasyAnimationSwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F68BB5DF1E23CAD2000A4168 /* AppDelegate.swift */,
+				F68BB5E11E23CAD2000A4168 /* ViewController.swift */,
+				F68BB5E31E23CAD2000A4168 /* Main.storyboard */,
+				F68BB5E61E23CAD2000A4168 /* Assets.xcassets */,
+				F68BB5E81E23CAD2000A4168 /* LaunchScreen.storyboard */,
+				F68BB5EB1E23CAD2000A4168 /* Info.plist */,
+			);
+			path = EasyAnimationSwiftDemo;
+			sourceTree = "<group>";
+		};
+		F68BB5F31E23CAD2000A4168 /* EasyAnimationSwiftDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F68BB5F41E23CAD2000A4168 /* EasyAnimationSwiftDemoTests.swift */,
+				F68BB5F61E23CAD2000A4168 /* Info.plist */,
+			);
+			path = EasyAnimationSwiftDemoTests;
+			sourceTree = "<group>";
+		};
+		F68BB5FE1E23CAD2000A4168 /* EasyAnimationSwiftDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F68BB5FF1E23CAD2000A4168 /* EasyAnimationSwiftDemoUITests.swift */,
+				F68BB6011E23CAD2000A4168 /* Info.plist */,
+			);
+			path = EasyAnimationSwiftDemoUITests;
+			sourceTree = "<group>";
+		};
+		F68BB60F1E23CBDA000A4168 /* EasyAnimationSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F68BB6101E23CBE8000A4168 /* EASCKAFactor.swift */,
+				F68BB6111E23CBE8000A4168 /* EASCore.swift */,
+				F68BB6121E23CBE8000A4168 /* EASKeyValues.swift */,
+				F68BB6131E23CBE8000A4168 /* EASUtils.swift */,
+			);
+			name = EasyAnimationSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F68BB5DB1E23CAD2000A4168 /* EasyAnimationSwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F68BB6041E23CAD2000A4168 /* Build configuration list for PBXNativeTarget "EasyAnimationSwiftDemo" */;
+			buildPhases = (
+				D7CA0947C0407527D6B76554 /* [CP] Check Pods Manifest.lock */,
+				F68BB5D81E23CAD2000A4168 /* Sources */,
+				F68BB5D91E23CAD2000A4168 /* Frameworks */,
+				F68BB5DA1E23CAD2000A4168 /* Resources */,
+				AE8FAFDA6EE2C482AD59DAA6 /* [CP] Embed Pods Frameworks */,
+				0642E3E13C1CC5BA59445C05 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyAnimationSwiftDemo;
+			productName = EasyAnimationSwiftDemo;
+			productReference = F68BB5DC1E23CAD2000A4168 /* EasyAnimationSwiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F68BB5EF1E23CAD2000A4168 /* EasyAnimationSwiftDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F68BB6071E23CAD2000A4168 /* Build configuration list for PBXNativeTarget "EasyAnimationSwiftDemoTests" */;
+			buildPhases = (
+				A1AA6D54FE3A79CE3FB7F770 /* [CP] Check Pods Manifest.lock */,
+				F68BB5EC1E23CAD2000A4168 /* Sources */,
+				F68BB5ED1E23CAD2000A4168 /* Frameworks */,
+				F68BB5EE1E23CAD2000A4168 /* Resources */,
+				6D1A1F6DC1609CB40DF00B27 /* [CP] Embed Pods Frameworks */,
+				868FCF46A1ECA522A6BC5233 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F68BB5F21E23CAD2000A4168 /* PBXTargetDependency */,
+			);
+			name = EasyAnimationSwiftDemoTests;
+			productName = EasyAnimationSwiftDemoTests;
+			productReference = F68BB5F01E23CAD2000A4168 /* EasyAnimationSwiftDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F68BB5FA1E23CAD2000A4168 /* EasyAnimationSwiftDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F68BB60A1E23CAD2000A4168 /* Build configuration list for PBXNativeTarget "EasyAnimationSwiftDemoUITests" */;
+			buildPhases = (
+				F68BB5F71E23CAD2000A4168 /* Sources */,
+				F68BB5F81E23CAD2000A4168 /* Frameworks */,
+				F68BB5F91E23CAD2000A4168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F68BB5FD1E23CAD2000A4168 /* PBXTargetDependency */,
+			);
+			name = EasyAnimationSwiftDemoUITests;
+			productName = EasyAnimationSwiftDemoUITests;
+			productReference = F68BB5FB1E23CAD2000A4168 /* EasyAnimationSwiftDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F68BB5D41E23CAD2000A4168 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = royliu1990;
+				TargetAttributes = {
+					F68BB5DB1E23CAD2000A4168 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 368TCNPK4C;
+						ProvisioningStyle = Automatic;
+					};
+					F68BB5EF1E23CAD2000A4168 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 368TCNPK4C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F68BB5DB1E23CAD2000A4168;
+					};
+					F68BB5FA1E23CAD2000A4168 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 368TCNPK4C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F68BB5DB1E23CAD2000A4168;
+					};
+				};
+			};
+			buildConfigurationList = F68BB5D71E23CAD2000A4168 /* Build configuration list for PBXProject "EasyAnimationSwiftDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F68BB5D31E23CAD2000A4168;
+			productRefGroup = F68BB5DD1E23CAD2000A4168 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F68BB5DB1E23CAD2000A4168 /* EasyAnimationSwiftDemo */,
+				F68BB5EF1E23CAD2000A4168 /* EasyAnimationSwiftDemoTests */,
+				F68BB5FA1E23CAD2000A4168 /* EasyAnimationSwiftDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F68BB5DA1E23CAD2000A4168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68BB5EA1E23CAD2000A4168 /* LaunchScreen.storyboard in Resources */,
+				F68BB5E71E23CAD2000A4168 /* Assets.xcassets in Resources */,
+				F68BB5E51E23CAD2000A4168 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68BB5EE1E23CAD2000A4168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68BB5F91E23CAD2000A4168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0642E3E13C1CC5BA59445C05 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyAnimationSwiftDemo/Pods-EasyAnimationSwiftDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D1A1F6DC1609CB40DF00B27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyAnimationSwiftDemoTests/Pods-EasyAnimationSwiftDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		868FCF46A1ECA522A6BC5233 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyAnimationSwiftDemoTests/Pods-EasyAnimationSwiftDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1AA6D54FE3A79CE3FB7F770 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE8FAFDA6EE2C482AD59DAA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyAnimationSwiftDemo/Pods-EasyAnimationSwiftDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7CA0947C0407527D6B76554 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F68BB5D81E23CAD2000A4168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68BB6161E23CBE8000A4168 /* EASKeyValues.swift in Sources */,
+				F68BB5E21E23CAD2000A4168 /* ViewController.swift in Sources */,
+				F68BB5E01E23CAD2000A4168 /* AppDelegate.swift in Sources */,
+				F68BB6151E23CBE8000A4168 /* EASCore.swift in Sources */,
+				F68BB6141E23CBE8000A4168 /* EASCKAFactor.swift in Sources */,
+				F68BB6171E23CBE8000A4168 /* EASUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68BB5EC1E23CAD2000A4168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68BB5F51E23CAD2000A4168 /* EasyAnimationSwiftDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68BB5F71E23CAD2000A4168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68BB6001E23CAD2000A4168 /* EasyAnimationSwiftDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F68BB5F21E23CAD2000A4168 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F68BB5DB1E23CAD2000A4168 /* EasyAnimationSwiftDemo */;
+			targetProxy = F68BB5F11E23CAD2000A4168 /* PBXContainerItemProxy */;
+		};
+		F68BB5FD1E23CAD2000A4168 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F68BB5DB1E23CAD2000A4168 /* EasyAnimationSwiftDemo */;
+			targetProxy = F68BB5FC1E23CAD2000A4168 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F68BB5E31E23CAD2000A4168 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F68BB5E41E23CAD2000A4168 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F68BB5E81E23CAD2000A4168 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F68BB5E91E23CAD2000A4168 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F68BB6021E23CAD2000A4168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F68BB6031E23CAD2000A4168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F68BB6051E23CAD2000A4168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6971960BC090ED7CCCE53CED /* Pods-EasyAnimationSwiftDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 368TCNPK4C;
+				INFOPLIST_FILE = EasyAnimationSwiftDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = royliu1990.EasyAnimationSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F68BB6061E23CAD2000A4168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FB44E3CE3C66AB6FD43CA9C /* Pods-EasyAnimationSwiftDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 368TCNPK4C;
+				INFOPLIST_FILE = EasyAnimationSwiftDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = royliu1990.EasyAnimationSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F68BB6081E23CAD2000A4168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C0D38E1CD733CE1A0D454B2 /* Pods-EasyAnimationSwiftDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 368TCNPK4C;
+				INFOPLIST_FILE = EasyAnimationSwiftDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = royliu1990.EasyAnimationSwiftDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyAnimationSwiftDemo.app/EasyAnimationSwiftDemo";
+			};
+			name = Debug;
+		};
+		F68BB6091E23CAD2000A4168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DA22C5EE426230E01A72A40 /* Pods-EasyAnimationSwiftDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 368TCNPK4C;
+				INFOPLIST_FILE = EasyAnimationSwiftDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = royliu1990.EasyAnimationSwiftDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyAnimationSwiftDemo.app/EasyAnimationSwiftDemo";
+			};
+			name = Release;
+		};
+		F68BB60B1E23CAD2000A4168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 368TCNPK4C;
+				INFOPLIST_FILE = EasyAnimationSwiftDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = royliu1990.EasyAnimationSwiftDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EasyAnimationSwiftDemo;
+			};
+			name = Debug;
+		};
+		F68BB60C1E23CAD2000A4168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 368TCNPK4C;
+				INFOPLIST_FILE = EasyAnimationSwiftDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = royliu1990.EasyAnimationSwiftDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EasyAnimationSwiftDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F68BB5D71E23CAD2000A4168 /* Build configuration list for PBXProject "EasyAnimationSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F68BB6021E23CAD2000A4168 /* Debug */,
+				F68BB6031E23CAD2000A4168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F68BB6041E23CAD2000A4168 /* Build configuration list for PBXNativeTarget "EasyAnimationSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F68BB6051E23CAD2000A4168 /* Debug */,
+				F68BB6061E23CAD2000A4168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F68BB6071E23CAD2000A4168 /* Build configuration list for PBXNativeTarget "EasyAnimationSwiftDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F68BB6081E23CAD2000A4168 /* Debug */,
+				F68BB6091E23CAD2000A4168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F68BB60A1E23CAD2000A4168 /* Build configuration list for PBXNativeTarget "EasyAnimationSwiftDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F68BB60B1E23CAD2000A4168 /* Debug */,
+				F68BB60C1E23CAD2000A4168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F68BB5D41E23CAD2000A4168 /* Project object */;
+}

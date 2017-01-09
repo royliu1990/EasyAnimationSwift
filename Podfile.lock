@@ -1,0 +1,31 @@
+PODS:
+  - RxCocoa (3.0.1):
+    - RxSwift (~> 3.0)
+  - RxExpect (0.2.0):
+    - RxCocoa (>= 3.0)
+    - RxSwift (>= 3.0)
+    - RxTest (>= 3.0)
+  - RxOptional (3.1.3):
+    - RxCocoa
+    - RxSwift
+  - RxSwift (3.0.1)
+  - RxTest (3.0.1):
+    - RxSwift (~> 3.0)
+
+DEPENDENCIES:
+  - RxCocoa (~> 3.0)
+  - RxExpect (~> 0.2)
+  - RxOptional (~> 3.1)
+  - RxSwift (~> 3.0)
+  - RxTest (~> 3.0)
+
+SPEC CHECKSUMS:
+  RxCocoa: 15a52fc590dcc700cb4a690a633b5c5184ce3a78
+  RxExpect: e25c7fb54147d2b9181f943d17eb67fbbcfc3e34
+  RxOptional: b97b59183af80d1e729ac9e51d09a10be668d6a8
+  RxSwift: af5680055c4ad04480189c52d28385b1029493a6
+  RxTest: 9867e6f3c435af30fbdb44b6d8ec30b78c40b515
+
+PODFILE CHECKSUM: 37a35997b59603ae24083e96066ca2868c38b1a8
+
+COCOAPODS: 1.1.1
