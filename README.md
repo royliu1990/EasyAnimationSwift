@@ -5,3 +5,5 @@ CocoaPods supported
 
 pod 'EasyAnimationSwift',    '~> 0.0.1'
 
+Demo GIF
+![image](https://github.com/royliu1990/EasyAnimationSwift/blob/master/GIF/EasyAnimationSwiftDemoGIF.gif)
