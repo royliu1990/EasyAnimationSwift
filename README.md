@@ -8,14 +8,12 @@ Encapsulation of CAAnimation in swift, extending UIView to easily store CAAnimat
 
 #### Usage:
 
-* register:
-*someView.register(animation:CAKeyframeAnimation,forkey:String,...)  
+* register:  *someView.register(animation:CAKeyframeAnimation,forkey:String,...)  
 someView.register(animation:[CAKeyframeAnimation],forkey:String,...)*
 
 * play:  
 *someView.animate(key:String)  
-someView.reverse(key:String,totalDuration:Double = 0) *  
- **notice: totalDuration is important to reverse multiple views' animation as a whole,plz read the demo for more details.**
+someView.reverse(key:String,totalDuration:Double = 0)* **notice: totalDuration is important to reverse multiple views' animation as a whole,plz read the demo for more details.**
 
 * remove  
 someView.remove(key:String)
