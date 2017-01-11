@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "EasyAnimationSwift"
   s.version      = "0.0.1"
-  s.summary      = "register CAAnimation that you can play and reverse later "
+  s.summary      = "Encapsulation of CAAnimation in swift, extending UIView to easily store CAAnimation and play later, or reverse separately.It can also synchronize the UIView's frame to the layer's frame when the animation did finished."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -134,8 +134,8 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
 
-  s.dependency 'RxSwift', '~> 3.0'
-  s.dependency 'RxCocoa', '~> 3.0'
-  s.dependency 'RxOptional', '~> 3.1'
+  # s.dependency 'RxSwift', '~> 3.0'
+  # s.dependency 'RxCocoa', '~> 3.0'
+  # s.dependency 'RxOptional', '~> 3.1'
 
 end
